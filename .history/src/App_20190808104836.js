@@ -2,10 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// const element = <h1>hello</h1>
+const element = <h1>hello</h1>
 function App() {
   return (
-    <div className="App">
+    <div getElementById className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>菜鸟教程</h2>
@@ -16,8 +16,10 @@ function App() {
     </div>
   );
 }
-
-
+ReactDOM.render(
+  element,
+  document.getElementById(App)
+)
 
 
 

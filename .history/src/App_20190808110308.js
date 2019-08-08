@@ -5,7 +5,7 @@ import './App.css';
 // const element = <h1>hello</h1>
 function App() {
   return (
-    <div className="App">
+    <div id="root" className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>菜鸟教程</h2>
@@ -16,8 +16,6 @@ function App() {
     </div>
   );
 }
-
-
 
 
 

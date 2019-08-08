@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// const element = <h1>hello</h1>
+const element = <h1>hello</h1>
 function App() {
   return (
     <div className="App">
@@ -16,8 +16,10 @@ function App() {
     </div>
   );
 }
-
-
+ReactDOM.render(
+  element,
+  document.getElementById(App)
+)
 
 
 
